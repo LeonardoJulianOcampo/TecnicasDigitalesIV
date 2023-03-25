@@ -1,0 +1,7 @@
+v 4
+file . "e-01-1bit-adder-tb.vhdl" "8003d416a9470ce83c0b60e67f12927ffaa974bf" "20230325220016.083":
+  entity fa_tb at 1( 0) + 0 on 13;
+  architecture behavior of fa_tb at 7( 72) + 0 on 14;
+file . "full-adder.vhdl" "63cc02f8a31827f2ed4bfd3d2bda508ca4694930" "20230325220011.115":
+  entity fa at 1( 0) + 0 on 11;
+  architecture behavioral of fa at 12( 232) + 0 on 12;
