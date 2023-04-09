@@ -1,0 +1,7 @@
+v 4
+file . "fa_tb.vhdl" "d9559fb1e7d9fc98578e67be88d7a3d34a79a6bc" "20230404210030.213":
+  entity fa_tb at 1( 0) + 0 on 27;
+  architecture behavior of fa_tb at 7( 72) + 0 on 28;
+file . "e-01.vhdl" "807dbea5b8caf5e960ba1ca3ea9264ac1eee4e0e" "20230404210024.848":
+  entity p_fulladder at 3( 20) + 0 on 25;
+  architecture behavioral of p_fulladder at 14( 233) + 0 on 26;

@@ -1,0 +1,80 @@
+$date
+  Tue Apr  4 18:01:24 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module fa_tb $end
+$var reg 1 ! a1 $end
+$var reg 1 " a2 $end
+$var reg 1 # a3 $end
+$var reg 1 $ d1 $end
+$var reg 1 % d2 $end
+$scope module uut $end
+$var reg 3 & datain[2:0] $end
+$var reg 2 ' d[1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+X"
+X#
+X$
+X%
+bXXX &
+bXX '
+#1000000
+0!
+0"
+1#
+0$
+0%
+b100 &
+b00 '
+#2000000
+Z"
+X$
+X%
+b1Z0 &
+bXX '
+#3000000
+1!
+0"
+1$
+0%
+b101 &
+b01 '
+#4000000
+1"
+0$
+1%
+b111 &
+b10 '
+#5000000
+0!
+0"
+0#
+0%
+b000 &
+b00 '
+#6000000
+1"
+b010 &
+#7000000
+1!
+0"
+b001 &
+#8000000
+1"
+1$
+b011 &
+b01 '
+#9000000
