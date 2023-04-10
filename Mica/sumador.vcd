@@ -1,0 +1,63 @@
+$date
+  Sun Apr  9 22:07:52 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_sum1bit $end
+$var reg 1 ! pa $end
+$var reg 1 " pb $end
+$var reg 1 # pen $end
+$var reg 2 $ pr[1:0] $end
+$scope module uut $end
+$var reg 1 % p_in_a $end
+$var reg 1 & p_in_b $end
+$var reg 1 ' p_en $end
+$var reg 2 ( p_res[1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+X"
+X#
+b00 $
+X%
+X&
+X'
+b00 (
+#1000000
+0!
+0"
+1#
+0%
+0&
+1'
+#11000000
+1!
+b01 $
+1%
+b01 (
+#21000000
+0!
+1"
+0%
+1&
+#31000000
+1!
+b11 $
+1%
+b11 (
+#41000000
+0#
+b00 $
+0'
+b00 (
+#51000000
