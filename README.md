@@ -11,10 +11,10 @@ ghdl -s <nombre-del-testbench.vhdl>
 
 2. Análisis
    
-   ```bash
-   ghdl -a <nombre-del-archivo.vhdl>
-   ghdl -a <nombre-del-testbench.vhdl>
-   ```
+```bash
+ghdl -a <nombre-del-archivo.vhdl>
+ghdl -a <nombre-del-testbench.vhdl>
+```
 
 3.
 
