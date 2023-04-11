@@ -11,10 +11,10 @@ ghdl -s <nombre-del-testbench.vhdl>
 
 2. Análisis
    
-   ```bash
-   ghdl -a <nombre-del-archivo.vhdl>
-   ghdl -a <nombre-del-testbench.vhdl>
-   ```
+```bash
+ghdl -a <nombre-del-archivo.vhdl>
+ghdl -a <nombre-del-testbench.vhdl>
+```
 
 3.
 
@@ -22,7 +22,8 @@ ghdl -s <nombre-del-testbench.vhdl>
 ghdl -e <nombre-del-modulo-testbench>
 ```
 
-4. ```bash
+4. 
+```bash
    ghdl -r <nombre-del-modulo-testbench>
    ```
 
@@ -38,6 +39,3 @@ Finalmente abrir gtkwave con el comando
 gtkwave <nombre-del-archivo.vcd>
 ```
 
-```python
-
-```
