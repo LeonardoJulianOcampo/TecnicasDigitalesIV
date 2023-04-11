@@ -4,8 +4,8 @@ use ieee.std_logic_1164.all;
 entity bcdToDec is
     port(
         input  : in  STD_LOGIC_VECTOR(3 DOWNTO 0);
-        RESET  : in  STD_LOGIC_VECTOR            ;
-        CLOCK  : in  STD_LOGIC_VECTOR            ;
+        RESET  : in  STD_LOGIC                   ;
+        CLOCK  : in  STD_LOGIC                   ;
         OUTPUT : out STD_LOGIC_VECTOR(9 DOWNTO 0)
     );
 end bcdToDec;
@@ -13,7 +13,7 @@ end bcdToDec;
 architecture behavioral of bcdToDec is
 
 begin
-process(RESET,CLOCK)
+process(RESET,CLOCK,INPUT)
     variable indata: STD_LOGIC_VECTOR(3 DOWNTO 0);
     
 begin

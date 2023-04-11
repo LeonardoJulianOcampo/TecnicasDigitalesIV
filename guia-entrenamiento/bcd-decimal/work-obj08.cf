@@ -1,0 +1,7 @@
+v 4
+file . "tb-bcd-decimal.vhdl" "68e33ae0beb1f24022fd05b56efc6eaa8c428ed9" "20230410024804.589":
+  entity tb_bcd2dec at 1( 0) + 0 on 25;
+  architecture behavioral of tb_bcd2dec at 7( 82) + 0 on 26;
+file . "bcd-decimal-alternate.vhdl" "c53b71bb6d2db7e5ce9fda87a1f8f74c1abc080d" "20230410024758.325":
+  entity bcdtodec at 1( 0) + 0 on 23;
+  architecture behavioral of bcdtodec at 13( 298) + 0 on 24;
