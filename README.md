@@ -1,8 +1,3 @@
-# Descricpión:
-
-FALTAN SUBIR LOS DEMAS EJERCICIOS
-
-
 # Uso de GHDL con GTKWave
 
 Una vez realizado el modulo y su respectivo testbench lo que se hace es emplear los siguientes comandos
